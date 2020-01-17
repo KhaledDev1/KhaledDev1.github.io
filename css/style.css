@@ -1,0 +1,8 @@
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+.center h1{
+    text-align: center;
+}
