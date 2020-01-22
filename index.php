@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Siva</title>
-    <meta name="description" content="">
+    <meta name="description" content="siva">
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="images/logo3.webp" type="image/x-icon" />
     <link rel="stylesheet" href="css/index.css" />
