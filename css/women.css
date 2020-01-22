@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.logoContainer{
+  margin: auto;
+  width: 50%;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+}
+
+header .logo {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+
+.nav_bar_wrapper {
+  background-color: #fff;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  color: #ff7f50;
+  margin-right: 41px;
+  padding: 12px;
+  transition: .3s ease-out;
+}
+
+li a:hover:not(.active) {
+  border-radius: 5px;
+  background-color: #c56847;
+  color: white;
+  transition: .3s ease-in;
+}
+.new:hover{
+  border-radius: 5px;
+  background-color: #c56847;
+  color: #fff;
+}
+
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 0 20px 0;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 15px 0 15px
+}
+
+.column img:hover {opacity: 0.7;}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+ /* border-radius: 0 100px 0 80px; */
+ border-radius: 5px;
+
+}
+
+.column figure {
+  text-align: center;
+  color: #c56847;
+  font-weight: bold;
+  font-size: large;
+}
+
+.column p {
+  margin-bottom: 100px;
+  text-align: center;
+  color: #c56847;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+display: none;}
