@@ -1,7 +1,7 @@
 {
-  "short_name": "pwa",
-  "name": "pwa test",
-  "description": "pwa test website",
+  "short_name": "Siva",
+  "name": "Siva Fashion",
+  "description": "Siva Fashion",
   "icons": [
     {
       "src": "images/logo3.png",
@@ -14,7 +14,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://khaleddev1.github.io/index.html",
+  "start_url": "https://khaleddev1.github.io",
   "background_color": "#c56847",
   "display": "standalone",
   "scope": "/",
